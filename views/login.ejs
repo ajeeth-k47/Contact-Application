@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Contact Diary</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- get the link from "https://getbootstrap.com/docs/3.3/getting-started/" -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="inner-section  jumbotron">
+      <p class="cdlg"> <i class="fas fa-phone-alt"></i>   <b> Contact</b>DIARY </p>
+        <div id="logintab">
+          <p id="login-header">  Login  </p>
+
+          <% if(validuser==="no"){%>
+           <p style="color:red;">  Invalid username/password  </p>
+          <%}%>
+
+          <form action="/" method="post">
+
+          <div class="form-group row">
+             <label for="name" class="col-sm-2 col-form-label"><i class="fad fa-user"></i></label>
+             <div class="col-sm-10">
+               <input type="text" class="form-control create" name="username" placeholder="Please Enter Username" required>
+             </div>
+           </div>
+
+           <div class="form-group row">
+             <label for="name" class="col-sm-2 col-form-label"><i class="fad fa-lock"></i></label>
+             <div class="col-sm-10">
+               <input type="password" class="form-control create" name="password" placeholder="Please Enter Password" required>
+             </div>
+          </div>
+
+          <br />
+          <button class="btn btn-success btn-block" type="submit" name="button">Sign In</button>
+
+        </form>
+
+          <p>
+            Don't have an account? <a href="signup">Sign up</a>
+          </p>
+      </div>
+    </div>
+   </body>
+
+
+ <footer>
+ <div class="footer-content">
+
+ <p><b>Contact</b>DIARY  @ 2021</p>
+
+ </div>
+ </footer>
+ </html>

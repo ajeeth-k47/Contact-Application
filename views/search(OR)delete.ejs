@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+<div class="inner-section">
+  <form class="" action="/<%=Option.operation%>" method="post">
+
+    <!-- MobileNo-->
+    <div class="form-group row">
+       <label for="name" class="col-sm-2 col-form-label"><b>Enter Contact Name:</b></label>
+       <div class="col-sm-10">
+         <input type="text" class="form-control create" name="name" placeholder="<%=Option.placeholder%>" required>
+       </div>
+     </div>
+
+     <br /><br /><br />
+     <button type="submit" class="btn <%=Option.color%>" name="button"><%=Option.operation%></button>
+  </form>
+
+
+</div>
+<%- include("partials/footer"); -%>

@@ -1,0 +1,114 @@
+.fad,.fas{
+  color: #61b15a;
+  font-size: 25px;
+}
+
+.fad{
+  margin-right: 10px;
+}
+.btn-success{
+  margin-left: 10px;
+}
+#login-header{
+  font-size: 25px;
+  color: #61b15a;
+}
+#logintab p{
+  padding: 3px;
+}
+.cdlg{
+  font-size: 25px;
+}
+footer{
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  background-color:#61b15a ;
+  display: inline;
+}
+
+.footer-content{
+  padding-top: 20px;
+  color:#40514E;
+}
+
+.viewheading{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  boder:2px solid black;
+}
+
+.body-Section{
+
+  position:absolute;
+  top:100px;
+  bottom:100px;
+  right:20px;
+  left:20px;
+  text-align: center;
+}
+
+
+.inner-section{
+  position:relative;
+  height:100%;
+  padding:10px 20px 20px 20px;
+  text-align: center;
+}
+
+#logintab{
+  position:relative;
+  width:50%;
+  margin:2rem 25%;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 0rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+
+#viewtab{
+  position:relative;
+  width:70%;
+  margin:20px 20px 3rem 10px;
+  padding-left:35%;
+  border-radius: 10px;
+  box-shadow: 0 2px 0rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+.create-contact,.delete-contact,.update-contact{
+  display:inline-block;
+}
+
+label{
+  text-align: left;
+}
+
+
+.create{
+  margin-left: 10px;
+}
+.delete{
+  margin-left: 50px;
+}
+
+
+.bottom-link{
+  margin-right: 20px;
+  text-decoration:none;
+  color:#40514E;
+}
+
+
+.innerresult-section{
+  position: relative;
+  text-align: left;
+  top:20px;
+  left:25%;
+}
