@@ -14,7 +14,7 @@ require('dotenv').config();
 var toggle="none";
 var currentuser="";
 
-mongoose.connect("mongodb+srv://<  USERNAME  >:<  PASSWORD  >@<  DB-path  >", { useNewUrlParser: true,useUnifiedTopology:true });
+mongoose.connect(process.env.CONTACT_URI, { useNewUrlParser: true,useUnifiedTopology:true });
 
 const contactSchema=new mongoose.Schema(
   {
